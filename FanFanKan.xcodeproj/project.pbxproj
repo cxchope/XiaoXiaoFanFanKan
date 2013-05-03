@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B3750C1603366B00663896 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B374FC1603366B00663896 /* h1.jpg */; };
+		94B3750D1603366B00663896 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B374FD1603366B00663896 /* h2.jpg */; };
+		94B3750E1603366B00663896 /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B374FE1603366B00663896 /* h3.jpg */; };
+		94B3750F1603366B00663896 /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B374FF1603366B00663896 /* h4.jpg */; };
+		94B375101603366B00663896 /* h5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375001603366B00663896 /* h5.jpg */; };
+		94B375111603366B00663896 /* h6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375011603366B00663896 /* h6.jpg */; };
+		94B375121603366B00663896 /* h7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375021603366B00663896 /* h7.jpg */; };
+		94B375131603366B00663896 /* h8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375031603366B00663896 /* h8.jpg */; };
+		94B375141603366B00663896 /* h9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375041603366B00663896 /* h9.jpg */; };
+		94B375151603366B00663896 /* h10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375051603366B00663896 /* h10.jpg */; };
+		94B375161603366B00663896 /* h11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375061603366B00663896 /* h11.jpg */; };
+		94B375171603366B00663896 /* h12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375071603366B00663896 /* h12.jpg */; };
+		94B375181603366B00663896 /* h13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375081603366B00663896 /* h13.jpg */; };
+		94B375191603366B00663896 /* h14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B375091603366B00663896 /* h14.jpg */; };
+		94B3751A1603366B00663896 /* h15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B3750A1603366B00663896 /* h15.jpg */; };
+		94B3751B1603366B00663896 /* h16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B3750B1603366B00663896 /* h16.jpg */; };
+		94D9EE151601BCE70058A9E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9EE141601BCE70058A9E4 /* UIKit.framework */; };
+		94D9EE171601BCE70058A9E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9EE161601BCE70058A9E4 /* Foundation.framework */; };
+		94D9EE191601BCE70058A9E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9EE181601BCE70058A9E4 /* CoreGraphics.framework */; };
+		94D9EE1F1601BCE70058A9E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE1D1601BCE70058A9E4 /* InfoPlist.strings */; };
+		94D9EE211601BCE70058A9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE201601BCE70058A9E4 /* main.m */; };
+		94D9EE251601BCE70058A9E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE241601BCE70058A9E4 /* AppDelegate.m */; };
+		94D9EE311601BE090058A9E4 /* FanfankanMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE301601BE090058A9E4 /* FanfankanMainMenuViewController.m */; };
+		94D9EE341601BE310058A9E4 /* FanfankanSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE331601BE310058A9E4 /* FanfankanSettingViewController.m */; };
+		94D9EE371601BE4D0058A9E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9EE361601BE4D0058A9E4 /* AVFoundation.framework */; };
+		94D9EE3A1601BE870058A9E4 /* MusicPlayerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE391601BE870058A9E4 /* MusicPlayerClass.m */; };
+		94D9EE3E1601BED40058A9E4 /* FanfankanGameingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE3D1601BED40058A9E4 /* FanfankanGameingViewController.m */; };
+		94D9EE411601BF0A0058A9E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D9EE401601BF0A0058A9E4 /* QuartzCore.framework */; };
+		94D9EE481601C04C0058A9E4 /* 点击.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE461601C04C0058A9E4 /* 点击.mp3 */; };
+		94D9EE491601C04C0058A9E4 /* 海贼王背景音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE471601C04C0058A9E4 /* 海贼王背景音.mp3 */; };
+		94D9EE641601C0610058A9E4 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE4B1601C0610058A9E4 /* btn_back.png */; };
+		94D9EE651601C0610058A9E4 /* b23.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE4C1601C0610058A9E4 /* b23.jpeg */; };
+		94D9EE661601C0610058A9E4 /* b9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE4D1601C0610058A9E4 /* b9.jpeg */; };
+		94D9EE671601C0610058A9E4 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE4E1601C0610058A9E4 /* back.jpg */; };
+		94D9EE681601C0610058A9E4 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE4F1601C0610058A9E4 /* default.png */; };
+		94D9EE791601C0610058A9E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE601601C0610058A9E4 /* icon.png */; };
+		94D9EE7A1601C0610058A9E4 /* musicClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE611601C0610058A9E4 /* musicClose.png */; };
+		94D9EE7B1601C0610058A9E4 /* musicOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE621601C0610058A9E4 /* musicOpen.png */; };
+		94D9EE7C1601C0610058A9E4 /* 背面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94D9EE631601C0610058A9E4 /* 背面.jpg */; };
+		94D9EE831601CD4D0058A9E4 /* CXC_Image_Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9EE821601CD4D0058A9E4 /* CXC_Image_Resize.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94B374FC1603366B00663896 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h1.jpg; path = image/h1.jpg; sourceTree = "<group>"; };
+		94B374FD1603366B00663896 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h2.jpg; path = image/h2.jpg; sourceTree = "<group>"; };
+		94B374FE1603366B00663896 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h3.jpg; path = image/h3.jpg; sourceTree = "<group>"; };
+		94B374FF1603366B00663896 /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h4.jpg; path = image/h4.jpg; sourceTree = "<group>"; };
+		94B375001603366B00663896 /* h5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h5.jpg; path = image/h5.jpg; sourceTree = "<group>"; };
+		94B375011603366B00663896 /* h6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h6.jpg; path = image/h6.jpg; sourceTree = "<group>"; };
+		94B375021603366B00663896 /* h7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h7.jpg; path = image/h7.jpg; sourceTree = "<group>"; };
+		94B375031603366B00663896 /* h8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h8.jpg; path = image/h8.jpg; sourceTree = "<group>"; };
+		94B375041603366B00663896 /* h9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h9.jpg; path = image/h9.jpg; sourceTree = "<group>"; };
+		94B375051603366B00663896 /* h10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h10.jpg; path = image/h10.jpg; sourceTree = "<group>"; };
+		94B375061603366B00663896 /* h11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h11.jpg; path = image/h11.jpg; sourceTree = "<group>"; };
+		94B375071603366B00663896 /* h12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h12.jpg; path = image/h12.jpg; sourceTree = "<group>"; };
+		94B375081603366B00663896 /* h13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h13.jpg; path = image/h13.jpg; sourceTree = "<group>"; };
+		94B375091603366B00663896 /* h14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h14.jpg; path = image/h14.jpg; sourceTree = "<group>"; };
+		94B3750A1603366B00663896 /* h15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h15.jpg; path = image/h15.jpg; sourceTree = "<group>"; };
+		94B3750B1603366B00663896 /* h16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h16.jpg; path = image/h16.jpg; sourceTree = "<group>"; };
+		94D9EE101601BCE60058A9E4 /* FanFanKan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanFanKan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D9EE141601BCE70058A9E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94D9EE161601BCE70058A9E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94D9EE181601BCE70058A9E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94D9EE1C1601BCE70058A9E4 /* FanFanKan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FanFanKan-Info.plist"; sourceTree = "<group>"; };
+		94D9EE1E1601BCE70058A9E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94D9EE201601BCE70058A9E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94D9EE221601BCE70058A9E4 /* FanFanKan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FanFanKan-Prefix.pch"; sourceTree = "<group>"; };
+		94D9EE231601BCE70058A9E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94D9EE241601BCE70058A9E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94D9EE2F1601BE090058A9E4 /* FanfankanMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanfankanMainMenuViewController.h; sourceTree = "<group>"; };
+		94D9EE301601BE090058A9E4 /* FanfankanMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanfankanMainMenuViewController.m; sourceTree = "<group>"; };
+		94D9EE321601BE310058A9E4 /* FanfankanSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanfankanSettingViewController.h; sourceTree = "<group>"; };
+		94D9EE331601BE310058A9E4 /* FanfankanSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanfankanSettingViewController.m; sourceTree = "<group>"; };
+		94D9EE361601BE4D0058A9E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		94D9EE381601BE870058A9E4 /* MusicPlayerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerClass.h; sourceTree = "<group>"; };
+		94D9EE391601BE870058A9E4 /* MusicPlayerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerClass.m; sourceTree = "<group>"; };
+		94D9EE3C1601BED40058A9E4 /* FanfankanGameingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanfankanGameingViewController.h; sourceTree = "<group>"; };
+		94D9EE3D1601BED40058A9E4 /* FanfankanGameingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanfankanGameingViewController.m; sourceTree = "<group>"; };
+		94D9EE401601BF0A0058A9E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94D9EE461601C04C0058A9E4 /* 点击.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "点击.mp3"; sourceTree = "<group>"; };
+		94D9EE471601C04C0058A9E4 /* 海贼王背景音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "海贼王背景音.mp3"; sourceTree = "<group>"; };
+		94D9EE4B1601C0610058A9E4 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		94D9EE4C1601C0610058A9E4 /* b23.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b23.jpeg; sourceTree = "<group>"; };
+		94D9EE4D1601C0610058A9E4 /* b9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b9.jpeg; sourceTree = "<group>"; };
+		94D9EE4E1601C0610058A9E4 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		94D9EE4F1601C0610058A9E4 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		94D9EE601601C0610058A9E4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		94D9EE611601C0610058A9E4 /* musicClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicClose.png; sourceTree = "<group>"; };
+		94D9EE621601C0610058A9E4 /* musicOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicOpen.png; sourceTree = "<group>"; };
+		94D9EE631601C0610058A9E4 /* 背面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背面.jpg"; sourceTree = "<group>"; };
+		94D9EE811601CD4D0058A9E4 /* CXC_Image_Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXC_Image_Resize.h; path = FanFanKan/CXC_Image_Resize.h; sourceTree = "<group>"; };
+		94D9EE821601CD4D0058A9E4 /* CXC_Image_Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXC_Image_Resize.m; path = FanFanKan/CXC_Image_Resize.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D9EE0D1601BCE60058A9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D9EE411601BF0A0058A9E4 /* QuartzCore.framework in Frameworks */,
+				94D9EE371601BE4D0058A9E4 /* AVFoundation.framework in Frameworks */,
+				94D9EE151601BCE70058A9E4 /* UIKit.framework in Frameworks */,
+				94D9EE171601BCE70058A9E4 /* Foundation.framework in Frameworks */,
+				94D9EE191601BCE70058A9E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94D9EE051601BCE60058A9E4 = {
+			isa = PBXGroup;
+			children = (
+				94D9EE1A1601BCE70058A9E4 /* FanFanKan */,
+				94D9EE131601BCE60058A9E4 /* Frameworks */,
+				94D9EE111601BCE60058A9E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D9EE111601BCE60058A9E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE101601BCE60058A9E4 /* FanFanKan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D9EE131601BCE60058A9E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE361601BE4D0058A9E4 /* AVFoundation.framework */,
+				94D9EE401601BF0A0058A9E4 /* QuartzCore.framework */,
+				94D9EE141601BCE70058A9E4 /* UIKit.framework */,
+				94D9EE161601BCE70058A9E4 /* Foundation.framework */,
+				94D9EE181601BCE70058A9E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D9EE1A1601BCE70058A9E4 /* FanFanKan */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE841601CD8A0058A9E4 /* 霄霄图片缩放类 1.0 */,
+				94D9EE4A1601C0510058A9E4 /* 图片资源 */,
+				94D9EE231601BCE70058A9E4 /* AppDelegate.h */,
+				94D9EE241601BCE70058A9E4 /* AppDelegate.m */,
+				94D9EE3B1601BE8F0058A9E4 /* 音乐播放单例 */,
+				94D9EE1B1601BCE70058A9E4 /* Supporting Files */,
+				94D9EE2E1601BD9E0058A9E4 /* 游戏主菜单 */,
+				94D9EE351601BE340058A9E4 /* 游戏设置 */,
+				94D9EE3F1601BED80058A9E4 /* 游戏画面 */,
+			);
+			path = FanFanKan;
+			sourceTree = "<group>";
+		};
+		94D9EE1B1601BCE70058A9E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE1C1601BCE70058A9E4 /* FanFanKan-Info.plist */,
+				94D9EE1D1601BCE70058A9E4 /* InfoPlist.strings */,
+				94D9EE201601BCE70058A9E4 /* main.m */,
+				94D9EE221601BCE70058A9E4 /* FanFanKan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D9EE2E1601BD9E0058A9E4 /* 游戏主菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE2F1601BE090058A9E4 /* FanfankanMainMenuViewController.h */,
+				94D9EE301601BE090058A9E4 /* FanfankanMainMenuViewController.m */,
+			);
+			name = "游戏主菜单";
+			sourceTree = "<group>";
+		};
+		94D9EE351601BE340058A9E4 /* 游戏设置 */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE321601BE310058A9E4 /* FanfankanSettingViewController.h */,
+				94D9EE331601BE310058A9E4 /* FanfankanSettingViewController.m */,
+			);
+			name = "游戏设置";
+			sourceTree = "<group>";
+		};
+		94D9EE3B1601BE8F0058A9E4 /* 音乐播放单例 */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE461601C04C0058A9E4 /* 点击.mp3 */,
+				94D9EE471601C04C0058A9E4 /* 海贼王背景音.mp3 */,
+				94D9EE381601BE870058A9E4 /* MusicPlayerClass.h */,
+				94D9EE391601BE870058A9E4 /* MusicPlayerClass.m */,
+			);
+			name = "音乐播放单例";
+			sourceTree = "<group>";
+		};
+		94D9EE3F1601BED80058A9E4 /* 游戏画面 */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE3C1601BED40058A9E4 /* FanfankanGameingViewController.h */,
+				94D9EE3D1601BED40058A9E4 /* FanfankanGameingViewController.m */,
+			);
+			name = "游戏画面";
+			sourceTree = "<group>";
+		};
+		94D9EE4A1601C0510058A9E4 /* 图片资源 */ = {
+			isa = PBXGroup;
+			children = (
+				94B374FC1603366B00663896 /* h1.jpg */,
+				94B374FD1603366B00663896 /* h2.jpg */,
+				94B374FE1603366B00663896 /* h3.jpg */,
+				94B374FF1603366B00663896 /* h4.jpg */,
+				94B375001603366B00663896 /* h5.jpg */,
+				94B375011603366B00663896 /* h6.jpg */,
+				94B375021603366B00663896 /* h7.jpg */,
+				94B375031603366B00663896 /* h8.jpg */,
+				94B375041603366B00663896 /* h9.jpg */,
+				94B375051603366B00663896 /* h10.jpg */,
+				94B375061603366B00663896 /* h11.jpg */,
+				94B375071603366B00663896 /* h12.jpg */,
+				94B375081603366B00663896 /* h13.jpg */,
+				94B375091603366B00663896 /* h14.jpg */,
+				94B3750A1603366B00663896 /* h15.jpg */,
+				94B3750B1603366B00663896 /* h16.jpg */,
+				94D9EE4B1601C0610058A9E4 /* btn_back.png */,
+				94D9EE4C1601C0610058A9E4 /* b23.jpeg */,
+				94D9EE4D1601C0610058A9E4 /* b9.jpeg */,
+				94D9EE4E1601C0610058A9E4 /* back.jpg */,
+				94D9EE4F1601C0610058A9E4 /* default.png */,
+				94D9EE601601C0610058A9E4 /* icon.png */,
+				94D9EE611601C0610058A9E4 /* musicClose.png */,
+				94D9EE621601C0610058A9E4 /* musicOpen.png */,
+				94D9EE631601C0610058A9E4 /* 背面.jpg */,
+			);
+			name = "图片资源";
+			sourceTree = "<group>";
+		};
+		94D9EE841601CD8A0058A9E4 /* 霄霄图片缩放类 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				94D9EE811601CD4D0058A9E4 /* CXC_Image_Resize.h */,
+				94D9EE821601CD4D0058A9E4 /* CXC_Image_Resize.m */,
+			);
+			name = "霄霄图片缩放类 1.0";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D9EE0F1601BCE60058A9E4 /* FanFanKan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D9EE281601BCE70058A9E4 /* Build configuration list for PBXNativeTarget "FanFanKan" */;
+			buildPhases = (
+				94D9EE0C1601BCE60058A9E4 /* Sources */,
+				94D9EE0D1601BCE60058A9E4 /* Frameworks */,
+				94D9EE0E1601BCE60058A9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanFanKan;
+			productName = FanFanKan;
+			productReference = 94D9EE101601BCE60058A9E4 /* FanFanKan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D9EE071601BCE60058A9E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Terence Chen";
+			};
+			buildConfigurationList = 94D9EE0A1601BCE60058A9E4 /* Build configuration list for PBXProject "FanFanKan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94D9EE051601BCE60058A9E4;
+			productRefGroup = 94D9EE111601BCE60058A9E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D9EE0F1601BCE60058A9E4 /* FanFanKan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D9EE0E1601BCE60058A9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D9EE1F1601BCE70058A9E4 /* InfoPlist.strings in Resources */,
+				94D9EE481601C04C0058A9E4 /* 点击.mp3 in Resources */,
+				94D9EE491601C04C0058A9E4 /* 海贼王背景音.mp3 in Resources */,
+				94D9EE641601C0610058A9E4 /* btn_back.png in Resources */,
+				94D9EE651601C0610058A9E4 /* b23.jpeg in Resources */,
+				94D9EE661601C0610058A9E4 /* b9.jpeg in Resources */,
+				94D9EE671601C0610058A9E4 /* back.jpg in Resources */,
+				94D9EE681601C0610058A9E4 /* default.png in Resources */,
+				94D9EE791601C0610058A9E4 /* icon.png in Resources */,
+				94D9EE7A1601C0610058A9E4 /* musicClose.png in Resources */,
+				94D9EE7B1601C0610058A9E4 /* musicOpen.png in Resources */,
+				94D9EE7C1601C0610058A9E4 /* 背面.jpg in Resources */,
+				94B3750C1603366B00663896 /* h1.jpg in Resources */,
+				94B3750D1603366B00663896 /* h2.jpg in Resources */,
+				94B3750E1603366B00663896 /* h3.jpg in Resources */,
+				94B3750F1603366B00663896 /* h4.jpg in Resources */,
+				94B375101603366B00663896 /* h5.jpg in Resources */,
+				94B375111603366B00663896 /* h6.jpg in Resources */,
+				94B375121603366B00663896 /* h7.jpg in Resources */,
+				94B375131603366B00663896 /* h8.jpg in Resources */,
+				94B375141603366B00663896 /* h9.jpg in Resources */,
+				94B375151603366B00663896 /* h10.jpg in Resources */,
+				94B375161603366B00663896 /* h11.jpg in Resources */,
+				94B375171603366B00663896 /* h12.jpg in Resources */,
+				94B375181603366B00663896 /* h13.jpg in Resources */,
+				94B375191603366B00663896 /* h14.jpg in Resources */,
+				94B3751A1603366B00663896 /* h15.jpg in Resources */,
+				94B3751B1603366B00663896 /* h16.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D9EE0C1601BCE60058A9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D9EE211601BCE70058A9E4 /* main.m in Sources */,
+				94D9EE251601BCE70058A9E4 /* AppDelegate.m in Sources */,
+				94D9EE311601BE090058A9E4 /* FanfankanMainMenuViewController.m in Sources */,
+				94D9EE341601BE310058A9E4 /* FanfankanSettingViewController.m in Sources */,
+				94D9EE3A1601BE870058A9E4 /* MusicPlayerClass.m in Sources */,
+				94D9EE3E1601BED40058A9E4 /* FanfankanGameingViewController.m in Sources */,
+				94D9EE831601CD4D0058A9E4 /* CXC_Image_Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94D9EE1D1601BCE70058A9E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D9EE1E1601BCE70058A9E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D9EE261601BCE70058A9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		94D9EE271601BCE70058A9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D9EE291601BCE70058A9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FanFanKan/FanFanKan-Prefix.pch";
+				INFOPLIST_FILE = "FanFanKan/FanFanKan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94D9EE2A1601BCE70058A9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FanFanKan/FanFanKan-Prefix.pch";
+				INFOPLIST_FILE = "FanFanKan/FanFanKan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D9EE0A1601BCE60058A9E4 /* Build configuration list for PBXProject "FanFanKan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D9EE261601BCE70058A9E4 /* Debug */,
+				94D9EE271601BCE70058A9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D9EE281601BCE70058A9E4 /* Build configuration list for PBXNativeTarget "FanFanKan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D9EE291601BCE70058A9E4 /* Debug */,
+				94D9EE2A1601BCE70058A9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D9EE071601BCE60058A9E4 /* Project object */;
+}
